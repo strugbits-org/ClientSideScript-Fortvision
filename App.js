@@ -1,3 +1,7 @@
+        (function(){
+            console.log('HAMZA');
+        })()
+
         console.log("CLIENT SIDE SCRIPT RAN..");
         const pageViewHandler = (eventData) => {
             console.log('PAGE VIEW EVENT TRIGGERED!!', eventData)
