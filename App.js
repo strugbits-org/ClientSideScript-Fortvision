@@ -1,6 +1,5 @@
-        console.log("CLIENT SIDE SCRIPT RAN!!");
-        const pageViewHandler = (eventData) => {
-            console.log('PAGE VIEW EVENT TRIGGERED!!', eventData)
+        const orderCreatedHandler = (eventData) => {
+            console.log('PURCHASE EVENT TRIGGERED!!', eventData)
         }
         const addToCartHandler = (eventData) => {
             console.log('ADD TO CARD EVENT TRIGGERED!!', eventData)
